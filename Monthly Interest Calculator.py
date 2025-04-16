@@ -20,22 +20,14 @@ try:
     a = calc_monthly_interest(principal_a, apr_percent_a)
     print(f"""The monthly intrest is: {a}""")
 
-    principal_b = float(
-        input(
-            "\nNow lets do another Monthly Intrest Calculation. Enter the principal amount for 'b': "
-        )
-    )
+    principal_b = float(input("\nNow lets do another Monthly Intrest Calculation. Enter the principal amount for 'b': "))
     # print(principal_b)
     apr_percent_b = float(input("Enter the APR percentage: "))
     # print(apr_percent_b)
     b = calc_monthly_interest(principal_b, apr_percent_b)
     print(f"""The monthly intrest is: {b}""")
 
-    principal_c = float(
-        input(
-            "\nNow lets do another Monthly Intrest Calculation. Enter the principal amount for 'c': "
-        )
-    )
+    principal_c = float(input("\nNow lets do another Monthly Intrest Calculation. Enter the principal amount for 'c': "))
     # print(principal_c)
     apr_percent_c = float(input("Enter the APR percentage: "))
     # print(apr_percent_c)
@@ -50,9 +42,7 @@ try:
         d = calc_monthly_interest(principal_average, apr_average)
         print(f"""\nThe average principal is: {principal_average}""")
         print(f"""The average APR is: {apr_average}""")
-        print(
-            f"""The resulting monthly dividend with your principal_average by apr_average is: {d}"""
-        )
+        print(f"""The resulting monthly dividend with your principal_average by apr_average is: {d}""")
         # print(f"The result of dividing a by c is: {a / c}")
         # print(f"The result of dividing b by c is: {b / c}")
         # print(f"The result of dividing a by b is: {a / b}")
